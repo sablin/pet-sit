@@ -24,7 +24,8 @@ body
 			border-color: red
 		&:required:valid
 			border-color: green
-
+section
+	padding: 50px 0
 .img-responsive
 	display: block
 	max-width: 100%
@@ -37,7 +38,10 @@ body
 
 b, strong
 	font-weight: bold
-
+i
+	margin-right: 5px
+a
+	color: $text
 header
 	background-image: url(../img/@1x/header-image.jpg)
 	background-size: cover
@@ -45,6 +49,18 @@ header
 	.top-line
 		background: white
 		padding: 20px 0
+		.top-line-info
+			display: flex
+			justify-content: space-between
+	.info__phone p
+		margin-bottom: 0
+main
+	padding: 20px 0
+.center-text
+	text-align: center
+.flex-container
+	display: flex
+	flex-wrap: wrap
 
 
 
