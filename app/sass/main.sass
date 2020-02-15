@@ -25,7 +25,7 @@ body
 		&:required:valid
 			border-color: green
 section
-	padding: 50px 0
+	margin: 50px 0 0
 .img-responsive
 	display: block
 	max-width: 100%
@@ -42,25 +42,76 @@ i
 	margin-right: 5px
 a
 	color: $text
+h3
+	margin: 30px 0
+
 header
-	background-image: url(../img/@1x/header-image.jpg)
-	background-size: cover
-	height: 700px
 	.top-line
 		background: white
 		padding: 20px 0
 		.top-line-info
 			display: flex
 			justify-content: space-between
+			align-items: center
 	.info__phone p
 		margin-bottom: 0
+.mainslider
+	background-image: url(../img/@1x/header-image.jpg)
+	background-size: cover
+	height: 600px
+	margin: 0
+	.header-title-block
+		height: 500px
+		align-items: left
+		display: flex
+		flex-direction: column
+		justify-content: center
+		width: 500px
+		max-width: 100%
+		h1
+			margin-bottom: 30px
+			color: white
+			font-size: 50px
+		a
+			width: 200px
+
 main
-	padding: 20px 0
+	.advantages-block
+		margin: 30px 0
+	.advantages_img-block
+		width: 500px
+		max-width: 100%
+	.advantages_text-block
+		width: 700px
+		max-width: 100%
+		padding: 20px 40px
 .center-text
 	text-align: center
 .flex-container
 	display: flex
-	flex-wrap: wrap
+	justify-content: space-between
+	align-items: center
+.flex-container-td
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+.welcome
+	background: url(../img/@1x/welcome-bg.jpg)
+	color: white
+	background-position: center
+	.welocme-block
+		height: 400px
+		h3
+			font-size: 47px
+.footer
+	background: linear-gradient(90deg, rgba(23,113,184,0.9612219887955182) 0%, rgba(0,212,255,1) 50%, rgba(3,150,214,1) 100%, rgba(9,9,121,1) 100%)
+	color: white
+	padding: 20px 0
+	a
+		color: white
+		text-decoration: underline
+
 
 
 
